@@ -1,0 +1,29 @@
+.sidebar {
+    width: 200px;
+    background-color: #f3f4f6;
+    position: fixed;
+    height: 100%;
+  }
+  
+  .logoSmall img {
+    cursor: pointer;
+    width: 150px;
+    border-radius: 10px;
+    margin: 20px auto 30px; /* Center horizontally with top/bottom margin */
+    display: block;      /* Ensure it's treated as a block element */
+  }
+  
+  
+  .menu a {
+    display: block;
+    padding: 15px 10px 15px 40px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .menu a.active {
+    font-weight: bold;
+    color: rgb(25, 21, 70);
+    background-color: rgb(232, 232, 232);
+  }
+  

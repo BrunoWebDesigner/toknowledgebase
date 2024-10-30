@@ -1,0 +1,13 @@
+.case-list-page {
+    display: flex;
+  }
+  
+  .main-content {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .case-list {
+    margin-top: 20px;
+  }
+  
