@@ -1,0 +1,29 @@
+.home-page {
+  display: flex;
+  height: 100vh;
+  background-color: rgb(232, 232, 232);
+}
+
+.main-content {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 220px;
+  width: calc(100% - 220px);
+  height: 100%;
+  display: flex; /* Add flex to main-content */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+}
+
+.logo img {
+  width: 400px;
+  margin: 6% 0;
+  border-radius: 40px;
+}
+
+.search-area {
+  display: flex;
+  gap: 10px;
+  align-items: center; /* Center vertically within the flex container */
+  justify-content: center; /* Center horizontally within the flex container */
+  margin-top: 20px; /* Optional: Add some space above the search area */
+}

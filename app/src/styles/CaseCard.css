@@ -1,0 +1,34 @@
+.case-card {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .case-number {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #2f2f8d;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  
+  .case-content {
+    flex: 1;
+  }
+  
+  .case-tag {
+    background: #e0f7e9;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
